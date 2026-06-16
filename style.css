@@ -78,14 +78,6 @@ body {
     position: relative;
     z-index: 9;
 }
-.hero .backgroundHero {
-    position: absolute;
-    bottom: 20rem;
-    left: 56rem;
-    width: 40rem;
-    z-index: 0;
-    display: block;
-}
 .about {
     margin: 20px 500px;
     letter-spacing: 1px;
@@ -303,15 +295,7 @@ body {
         position: relative;
         z-index: 9;
     }
-    .hero .backgroundHero {
-    position: absolute;
-    left: 0px;
-    right: 100rem;
-    width: 200vw;
-    bottom: 0px;
-    z-index: 0;
-    display: block;
-}
+    
 .about {
     margin: 20px;
     font-family: 'Pliant';
