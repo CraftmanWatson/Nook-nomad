@@ -160,29 +160,31 @@ body {
 }
 .testimonial .user-card {
     width: 30%;
-    height: 200px;
     box-shadow: 0px 0px 10px #aaa;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 30px;
+    justify-content: flex-start;
     border-radius: 10px;
+    
+    padding: 30px;
 }
 .testimonial .user-card .user-profile {
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
     
     border-radius: 50%;
 }
 .testimonial .user-card .user {
     text-align: center;
     margin: 5px;
+    
+    font-size: 1rem;
 }
 .testimonial .user-card .feedback {
     text-align: center;
-    margin: 5px;
-    margin: 0px 60px;
+    
+    
 }
 .footer {
     width: 100%;
@@ -374,13 +376,13 @@ body {
 }
 .testimonial .user-card {
     width: 90%;
-    height: 200px;
+    height: auto;
     box-shadow: 0px 0px 3px #aaa;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 30px;
+    padding: 10px;
     border-radius: 25px;
 }
 .testimonial .user-card .user-profile {
